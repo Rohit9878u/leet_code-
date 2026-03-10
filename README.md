@@ -1,53 +1,43 @@
-# leet_code-
-Roman to interger
+💻 LeetCode Solutions Repository
 
-class Solution {
-public:
+This repository contains my solutions to various LeetCode problems implemented mainly in C++. The purpose of this repository is to practice Data Structures and Algorithms (DSA), improve problem-solving skills, and keep track of my coding journey. 🚀
 
-    int num(char c){
-        if(c=='I')
-        return 1;
+✨ Features
 
-        else if(c=='V')
-        return 5;
+📌 Solutions to LeetCode problems from Easy, Medium, and Hard levels
 
-        else if(c=='X')
-        return 10;
+🧑‍💻 Clean and well-structured C++ implementations
 
-        else if(c=='L')
-        return 50;
+⚡ Focus on efficient algorithms and optimized solutions
 
-        else if(c=='C')
-        return 100;
+📈 Helps improve DSA concepts and coding interview preparation
 
-        else if(c=='D')
-        return 500;
+📚 Topics Covered
 
-        else
-        return 1000;
+📊 Arrays
 
-    }
+🔤 Strings
 
-    int romanToInt(string s) {
+🔗 Linked Lists
 
-        int sum=0;
-        int index=0;
+📦 Stacks & Queues
 
-        while(index<s.size()-1){
+🔁 Recursion & Backtracking
 
-            if(num(s[index])<num(s[index+1]))
-            sum-=num(s[index]);
+🔍 Sorting & Searching
 
-            else
-            sum+=num(s[index]);
+🧠 Dynamic Programming
 
-            index++;
+🎯 Greedy Algorithms
 
-        }
+🌐 Graphs & Trees
 
-            sum+=num(s[s.size()-1]);
+🎯 Purpose
 
-            return sum;
-        
-    }
-};
+This repository serves as:
+
+📖 A personal coding practice tracker
+
+💡 A reference for commonly asked interview problems
+
+🚀 A resource for anyone learning DSA and competitive programming
